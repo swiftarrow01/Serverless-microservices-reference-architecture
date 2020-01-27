@@ -7,7 +7,7 @@ variables:
   testProjects: '**/*Test*/*.csproj'
   buildConfiguration: 'Release'
 queue:
-  name: Azure Pipelines
+  name: Hosted Linux Preview
 steps:
   - task: DotNetCoreCLI@2
     displayName: Restore
