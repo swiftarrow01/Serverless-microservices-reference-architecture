@@ -1,5 +1,7 @@
 resources:
   - repo: self
+pool:
+  vmImage: 'ubuntu-latest'
 variables:
   restoreBuildProjects: |
     **/*.csproj
